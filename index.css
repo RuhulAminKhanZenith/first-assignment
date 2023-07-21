@@ -1,0 +1,254 @@
+.banner {
+    margin: 0px 10px 0px 10px;
+    padding: 10px 0px 0px 20px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.sp-color {
+    color: deeppink;
+}
+
+h1 {
+    display: flex;
+    font: 708px;
+    flex-direction: column;
+    color: blueviolet;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    line-height: normal;
+
+    margin-bottom: 30px;
+
+}
+
+.description {
+    color: #E55473;
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    font-family: Lato;
+    font-size: 18px;
+
+
+}
+
+.btn {
+    background-color: deeppink;
+    color: pink;
+    font-family: Lato;
+    padding: 15px 35px;
+    border-radius: 8px;
+
+    box-shadow: 10px 10px 10px -1px lightcoral;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.banner .cover {
+    width: 500px;
+
+}
+
+
+
+h3 {
+    font-family: Lato;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+.brief {
+    text-align: center;
+    color: #E55473;
+    display: flex;
+    flex-direction: column;
+    font-family: Lato;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+
+.hotdeal {
+    margin: 0px 10px 0px 10px;
+    padding: 10px 0px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(244, 222, 194);
+    border-radius: 25px;
+}
+
+h4 {
+    display: flex;
+    ;
+    flex-direction: column;
+    font-family: Lato;
+    font-size: 50px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.descrip {
+    color: #E55473;
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    font-family: Lato;
+    font-size: 30px;
+}
+
+.hotdeal .pic {
+    width: 250px;
+    
+}
+
+.social {
+    margin: 0px 0px 0px 0px;
+    padding: 10px 10px 10px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.insta {
+    font-family: Lato;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+.flw {
+    text-align: center;
+    color: #E55473;
+    display: flex;
+    flex-direction: column;
+    font-family: Lato;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.rect {
+    margin: 5px 15px 5px 15px;
+    border-radius: 10px;
+}
+
+.bg {
+    background-image: url(img-1/rectangle-9.png);
+    padding: 20px 20px 20px 20px;
+    margin: 40px 20px;
+    border-radius: 10px;
+}
+
+.form {
+    width: 700px;
+    height: 64px;
+    border-radius: 10px;
+    padding: 5px 5px;
+    background: #FFF;
+    font-size: 19px;
+}
+
+.latest {
+
+    font-family: Lato;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    color: darkviolet;
+}
+
+.f {
+    background-color: black;
+    color: #E55473;
+    font-family: Lato;
+    text-align: center;
+    font-style: normal;
+    padding: 40px 20px 10px 20px;
+    margin: 20px 20px 0px 20px;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.fs {
+    font-size: 100px;
+    margin: 0px;
+}
+
+.loc {
+    font-size: 30px;
+}
+
+.footer {
+    font-size: 9px;
+
+}
+
+.dlv {
+    border-radius: 18px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1170px;
+    height: 150px;
+    margin: 60px 35px 60px 35px;
+   
+    border-radius: 20px;
+    padding: 40px ;
+    
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.img{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 310px;
+    height: 400px;
+    padding: 30px 10px 0px 10px;
+    
+}
+.middle {
+    
+    
+    margin: 0px 65px 30px 65px;
+    
+    border-radius: 20px;
+    padding: 60px ;
+    gap: 20px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+button:hover{
+    border: 3px solid #FF42A5;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 9px 9px 10px 0px #f758b7;
+    font-weight: 700;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
